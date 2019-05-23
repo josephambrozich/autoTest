@@ -2,3 +2,13 @@ body{
     background-color:lightgray;
     color:black;
 }
+
+.ball{
+    color:blue;
+    border-radius: 10px;
+    position:fixed;
+    left:0;
+    y:0;
+    height:50px;
+    width:50px;
+}
