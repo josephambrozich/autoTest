@@ -4,6 +4,6 @@ $(function(){
     var bLeft = 0;
     $(document).on('click', function(){
         bLeft += 5;
-        $(".ball").css('left', bLeft);
+        $(".ball").css({'left': bLeft});
     });
 });
