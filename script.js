@@ -5,5 +5,6 @@ $(function(){
     $(document).on('click', function(){
         bLeft += 5;
         $("#counter").text(bLeft);
+        $(".ball").css({"left":bLeft});
     });
 });
