@@ -3,7 +3,7 @@ $(function(){
 
     var bLeft = 0;
     $(document).on('click', function(){
-        bLeft += 5;
+        bLeft += 10;
         $("#counter").text(bLeft);
         $(".ball").css({"left":bLeft});
     });
